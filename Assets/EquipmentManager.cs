@@ -5,10 +5,10 @@ using UnityEngine;
 public class EquipmentManager : MonoBehaviour {
 
     #region Singleton
-    public static EquipmentManager instace;
+    public static EquipmentManager instance;
     private void Awake()
     {
-        instace = this;
+        instance = this;
     }
     #endregion
 
